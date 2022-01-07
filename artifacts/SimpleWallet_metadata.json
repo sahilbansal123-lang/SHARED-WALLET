@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sharedWalletProject/baseSmartContract.sol": "SimpleWallet"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sharedWalletProject/baseSmartContract.sol": {
+			"keccak256": "0x4edfddc440762d385db2b6717fce976ed3a9f83417bc23bd1e0f5e1304800d87",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f8a3527b568e6f72a40b5251396996a40f1bbf2bd63901fb45e732946a698792",
+				"dweb:/ipfs/QmRC2eLU8CGbwY8aAqT1xK33A2qF4UN8JWt8nQdx5azLq2"
+			]
+		}
+	},
+	"version": 1
+}
